@@ -28,8 +28,8 @@ Hirelytics is a modern web application that provides smart, AI-powered feedback 
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dhruv-git-sys/ai-resume-analyzer.git
-   cd ai-resume-analyzer-main
+   git clone https://github.com/dhruv-git-sys/Hirelytics.git
+   cd Hirelytics
    ```
 2. Install dependencies:
    ```sh
@@ -47,15 +47,8 @@ npm run build
 npm run start
 ```
 
-### Docker
-A multi-stage Dockerfile is provided for containerized deployment:
-```sh
-docker build -t Hirelytics .
-docker run -p 5173:5173 Hirelytics
-```
-
 ## Usage
-1. **Sign In**: Log in to your account.
+1. **Sign In**: Log in to your puter account.
 2. **Upload Resume**: Go to 'Upload Resume', fill in job details, and upload your PDF.
 3. **Analyze**: The app converts your PDF to an image, stores it, and sends it for AI analysis.
 4. **Review Feedback**: View ATS score, detailed feedback, and improvement tips.
